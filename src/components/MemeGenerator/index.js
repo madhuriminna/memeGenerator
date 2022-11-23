@@ -90,18 +90,21 @@ class MemeGenerator extends Component {
               id="input1"
               placeholder="Enter the Image URL"
               onChange={this.getUrl}
+             type="url"
             />
             <Label1 htmlFor="input2">Top Text</Label1>
             <Input1
               id="input2"
               placeholder="Enter the Top Text"
               onChange={this.topText}
+type="text"
             />
             <Label1 htmlFor="input3">Bottom Text</Label1>
             <Input1
               id="input3"
               placeholder="Enter the Bottom Text"
               onChange={this.bottomText}
+type="text"
             />
             <Label1 htmlFor="input4">Font Size</Label1>
             <Drop id="input4" onChange={this.change} value={values}>
